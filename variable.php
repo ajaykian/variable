@@ -25,7 +25,7 @@ if($hungry_or_not)
      echo $hungry_or_not;
    ?>
    <?php
-    $eye_color = "black";
+    $eye_color = "marron";
     echo $eye_color;
    ?>
    <?php
