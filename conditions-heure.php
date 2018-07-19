@@ -1,4 +1,5 @@
 <?php
+date_default_timezone_set('Europe/Brussels');
 $hour = date("H:i");
 var_dump($hour);
 if ($hour >= "05:00" AND $hour <= "09:00") {
@@ -16,7 +17,7 @@ if ($hour >= "05:00" AND $hour <= "09:00") {
 
 <!DOCTYPE html>
 <head>
-<title>condition</title>   
+<title>condition</title>
 </head>
 <html>
     <body>

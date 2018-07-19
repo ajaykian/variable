@@ -10,11 +10,13 @@ if( $temperature >= 15 ) {
 ?>
 <?php   
    
-   $temperature1 = 23;
-if($temperature1 = 30 AND $temperature1 >= 25) {
+   $temperature1 = 13;
+if($temperature1 >= 20) {
        $action_a_faire = "<br />être en caleçon";
-   } else if ($temperature1 = 24 AND $temperature1 >+ 10) {
+   } else if ($temperature1 >= 15) {
        $action_a_faire = "<br />garder ses vêtments";
+   } else {
+       $action_a_faire = "<br />Doubler ses vêtements";
    }
 ?>
 

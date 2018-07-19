@@ -1,4 +1,6 @@
 <?php
+$note = $_POST["gender"];
+$note = $_POST["age"];
 $gender = "femme";
 $age = "";
 if ($age < 12) {
@@ -25,20 +27,23 @@ if ($age < 12) {
     } else {
     echo "<br />Toujours vivant?";
     }
-} 
+}
 ?>
 
 <!DOCTYPE html>
 <head>
-    <title>condition</title>   
+    <title>condition</title>
 </head>
 <html>
     <body>
-         
-        <!-- <form action="conditions.php" method="GET"><input type="number" value="number" name="valider"></form>
-         <form action="condition.php" method="GET"><input type="radio" value="text" name="valider">Homme</form>
-         <form action="conditions.php" method="GET" ><input type="radio" value="text" name="valider">Femme</form> -->
-         
+
+      <form action="" method="POST"><input name="age" type="number" value="">
+      <button type="submit" name="button">valider</button>
+      </form>
+
+      <form action="" method="post"><input type="radio" value="" name="gender">femme</form>
+      <form action="" method="post"><input type="radio" value="" name="gender">homme</form>
+
 
     </body>
 </html>
