@@ -13,8 +13,10 @@
   ?>
 
 <?php
-$genre = "homme";
-$bonjour = ($genre = "femme" OR $genre = "homme") ? "Madame" : "Monsieur";
+$genre = "fe";
+// $bonjour = ($genre == "femme") ? "Madame" : "Monsieur";
+$bonjour = $genre == "femme" ? "Madame" : ($genre == "homme" ? "Monsieur" : "Crevette");
+
  ?>
 <?php
 echo $bonjour;
