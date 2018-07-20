@@ -1,11 +1,11 @@
   <?php
-  //$genre = "femme";
+  $genre = "femme";
 
-  //if($genre == "femme") {
-    //$bonjour = "Madame";
-  //} else if ($genre =="homme") {
-    //$bonjour = "Monsieur";
-  //}
+  if($genre == "femme") {
+    $bonjour = "Madame";
+  } else if ($genre =="homme") {
+    $bonjour = "Monsieur";
+  }
 
    ?>
    <?php
@@ -14,8 +14,8 @@
 
 <?php
 $genre = "fe";
-// $bonjour = ($genre == "femme") ? "Madame" : "Monsieur";
-$bonjour = $genre == "femme" ? "Madame" : ($genre == "homme" ? "Monsieur" : "Crevette");
+$bonjour = ($genre == "femme") ? "Madame" : "Monsieur";
+
 
  ?>
 <?php
