@@ -1,4 +1,4 @@
-  <?php
+<?php
   $genre = "femme";
 
   if($genre == "femme") {
@@ -7,17 +7,15 @@
     $bonjour = "Monsieur";
   }
 
-   ?>
-   <?php
-  //echo $bonjour;
-  ?>
+?>
+<?php
+//echo $bonjour;
+?>
 
 <?php
-$genre = "fe";
-$bonjour = ($genre == "femme") ? "Madame" : "Monsieur";
-
-
- ?>
+  $genre = "fe";
+  $bonjour = ($genre == "femme") ? "Madame" : "Monsieur";
+?>
 <?php
-echo $bonjour;
- ?>
+  echo $bonjour;
+?>

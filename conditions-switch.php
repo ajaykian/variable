@@ -2,9 +2,9 @@
   $age = "10";
   $sexe = "femme, homme";
     if ($sexe = "femme" AND $age >= 21 AND $age <= 40 ) {
-      //echo "Bonjour, bienvenue parmi nous!";
+    //echo "Bonjour, bienvenue parmi nous!";
     } else {
-      //echo "Désolé, vous ne remplissez pas les critères de sélection.";
+    //echo "Désolé, vous ne remplissez pas les critères de sélection.";
     }
   print_r($_POST);
   $age1 = 21 <= 40;

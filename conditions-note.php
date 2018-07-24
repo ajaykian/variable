@@ -13,6 +13,8 @@ if ($note <= "5") {
     $professor = "Bravo";
 } elseif ($note == "19" OR $note == "20") {
     $professor = "Police! Arrêtez ce tricheur!";
+} elseif ($note >= 21) {
+  $professor = "Faut pas rêver!!!";
 }
 ?>
 
@@ -22,13 +24,10 @@ if ($note <= "5") {
 </head>
 <html>
     <body>
-        <?php
-
-            echo $professor;
-        ?>
+        <?php echo $professor; ?>
 
       <form action="" method="POST"><input name="note" type="number" value="">
-      <button type="submit" name="button">valider</button>
+        <button type="submit" name="button">valider</button>
       </form>
     </body>
 </html>
