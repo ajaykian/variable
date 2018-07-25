@@ -6,7 +6,7 @@
     } else {
     //echo "Désolé, vous ne remplissez pas les critères de sélection.";
     }
-  print_r($_POST);
+  // print_r($_POST);
   $age1 = 21 <= 40;
   $sexe1 = "femme";
     if ($sexe1 = true AND $sexe1 = true) {
